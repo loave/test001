@@ -1,6 +1,6 @@
 #coding=utf-8
 import random
-
+import time
 # ------------------------随机电话----------------------------
 # list1=[]
 # file1=open('rmobile.txt','w+')
