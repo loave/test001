@@ -187,8 +187,9 @@ public class CommonFileAction extends BaseAction {
             userAgent = userAgent.toLowerCase();
             if (userAgent.indexOf("firefox") != -1) {
             //随便加的注释
+			//再来点注释
             } else {
-                downFileName = URLEncoder.encode(downFileName,"UTF-8");
+                downFileName1 = URLEncoder.encode(downFileName,"UTF-8");
             }
         }
         baseLog.info("after conversion ------- " + downFileName);
